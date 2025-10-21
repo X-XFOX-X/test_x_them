@@ -2,7 +2,7 @@
 
 
 
-<h1>dlfkd</h1>
+<h1><?= the_content()?></h1>
 
 
 <?php get_footer() ?>
