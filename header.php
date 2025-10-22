@@ -3,7 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xtheme title</title>
+    <title>
+<?php
+if ( is_singular() ) {
+    echo get_the_title() . ' | ' . get_bloginfo('name');
+} else {
+    bloginfo('name');
+}
+?>
+</title>
+
+
 </head>
 <body>
     
+
