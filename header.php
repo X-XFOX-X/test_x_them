@@ -3,15 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-<?php
-if ( is_singular() ) {
-    echo get_the_title() . ' | ' . get_bloginfo('name');
-} else {
-    bloginfo('name');
-}
-?>
-</title>
+
 
     <link rel="icon" href="<?= get_template_directory_uri()?>/assets/images/favicon.png">
     <link rel="apple-touch-icon" href="<?= get_template_directory_uri()?>/assets/images/favicon.png">
