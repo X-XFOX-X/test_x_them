@@ -22,7 +22,8 @@ if ( is_singular() ) {
     <link rel="stylesheet"  href="<?= get_template_directory_uri()?>/assets/css/swiper-bundle.min.css"> 
     <link rel="stylesheet"  href="<?= get_template_directory_uri()?>/assets/css/animate.min.css"> 
     <link rel="stylesheet"  href="<?= get_template_directory_uri()?>/assets/css/magnific-popup.css"> 
-    <link rel="stylesheet"  href="<?= get_template_directory_uri()?>/assets/css/main.css">  
+    <link rel="stylesheet"  href="<?= get_template_directory_uri()?>/assets/css/main.css">
+    <?php wp_head()?>  
 
 </head>
 

@@ -1,4 +1,5 @@
 <?php get_template_part("templates/footer") ?>
+<?php wp_footer() ?>
 
 <script src="<?= get_template_directory_uri() ?>/assets/js/jquery-3.6.0.min.js"></script>
 <script src="<?= get_template_directory_uri() ?>/assets/js/bootstrap.bundle.min.js"></script>
