@@ -11,4 +11,14 @@ add_action('after_setup_theme', function () {
 //     wp_enqueue_style("main_style");
 // }
 
+
+// add_action("enqueue_script", "function_enqueue_script");
+
+// // add script in enqueue
+// function function_enqueue_script(){
+
+//     wp_register_script("main_script", get_template_directory_uri() . "/assets/js/script.js", ["jquery", false]);
+//     wp_enqueue_script("main_script");
+// }
+
 ?>
